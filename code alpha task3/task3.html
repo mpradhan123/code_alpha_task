@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Social Media Dashboard</h1>
+        </header>
+        <main>
+            <section class="login-section">
+                <h2>Login</h2>
+                <button onclick="loginWithFacebook()">Login with Facebook</button>
+                <button onclick="loginWithTwitter()">Login with Twitter</button>
+                <button onclick="loginWithInstagram()">Login with Instagram</button>
+            </section>
+            <section class="feed-section">
+                <h2>Your Feeds</h2>
+                <div id="facebook-feed" class="feed">
+                    <h3>Facebook</h3>
+                </div>
+                <div id="instagram-feed" class="feed">
+                    <h3>Instagram</h3>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

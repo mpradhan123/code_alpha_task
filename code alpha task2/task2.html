@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>project 1</h3>
+            <p>Car Driving Game</p>
+            <button onclick="showMore(this)">Show More</button>
+            <p class="more-info">Developed a web-based car driving game with engaging
+                gameplay, utilizing CSSfor JavaScript for game logic, and 
+                Python for backend functionalities.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Online Shopping App</p>
+            <button onclick="showMore(this)">Show More</button>
+            <p class="more-info">Designed and implemented an interactive online shopping 
+                application leveraging JavaScript, HTML, and CSS. Key 
+                functionalities include a dynamic product catalog, seamless user 
+                authentication, robust shopping cart features, and responsive 
+                designfor optimal user experience across devices.</p>
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>Download my <a href="Manoj cv.pdf" target="_blank">resume</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 My Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
